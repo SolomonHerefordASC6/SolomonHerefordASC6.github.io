@@ -1,0 +1,129 @@
+body, html {
+    height: 100%;
+}
+  
+    .city { 
+    /* The image used */
+    background-image: url("images/joeL2.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(5%);
+    
+  }
+
+  h1 {
+      text-align: center;
+      padding: 10px;
+      background-color: goldenrod;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: crimson;
+      opacity: 0.8;
+  }
+
+  #button{
+    background-color: transparent;
+    padding: 12px;
+    margin: center;
+    text-align: center
+  }
+
+  #infoPage{
+      background-color: rgb(76, 233, 181, 0.3);
+  }
+  
+  #text{
+    border: 15px solid lightcoral; 
+    background-color: lightcoral;
+    color: black;
+ }
+
+ #randomtext{
+     
+ }
+
+ #back_pic1{
+     height: 800px;
+     width: 1000px;
+ }
+
+ 
+  #sub_cats{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+  }
+  
+  
+  div #A{
+      padding:45px;
+  }
+  
+  div #B{
+      padding:45px;
+  }
+  
+  div #C{
+      padding:45px;
+  }
+  
+  div #D{
+      padding:45px;
+  }
+  
+  div #E{
+      padding:45px;
+  }
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

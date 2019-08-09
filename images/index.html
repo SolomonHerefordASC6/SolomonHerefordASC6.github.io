@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Pokemon API Practice</title>
+
+		
+	</head>
+
+	<body>
+
+		<script>
+
+			fetch('https://pokeapi.co/api/v2/pokemon/pikachu')
+				.then(function(response) {
+					console.log(response);
+
+					// return the extracted JSON data
+					return response.json();
+				})
+
+				.then(function(myJson) {
+					console.log(myJson);
+
+				});
+
+		</script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
